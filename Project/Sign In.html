@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    
+</head>
+<body>
+<style> 
+#pa {
+font-size: 60px;
+font-style:inherit;
+font-weight: 500;
+text-align: center;
+background-color: rgb(236, 236, 120);
+}
+body{
+  background-image: url(photo.jpg);  
+  background-size: 100%;
+  } 
+.div{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(39, 16, 168);
+    width: 200px;
+    height: 300px;
+    border:solid 5px;
+    position: center;
+    margin: auto;
+  }
+</style>
+
+    <a href="project.html"> Home</a>
+    <br>
+    <a href="Contact.html"> Contact Us</a>
+
+</body>
+</html>
+<form>
+    
+        <p id="pa">Login</p>
+      <div class="div"> 
+        <tr>
+            <td><label>Email</label><span style="color: red;"> *</span></td>
+            <td><input type="email" name="email" required /></td>
+        </tr>
+        <br>
+        <tr>
+            <td><label>Password</label><span style="color: red;"> *</span></td>
+            <td><input type="password" name="password" required /></td>
+        </tr>
+        <br>
+<tr>
+    <td><button type="Submit">Sign In</button></td>
+    <br>
+    <td><a href="">Sign Up </a></td>
+</tr>
+ </div>    
+ 
+</form>
+<style>
+  html {
+scroll-behavior: smooth;
+/*new for me
+when to use html tag as selector??*/
+}
+body {
+margin: 0;
+padding: 0;
+background-color: rgb(255, 255, 255);
+/*اي صورة*/
+background-size: cover;
+height: 300vh;
+}
+.btn {
+border: none;
+background-color: rgb(7, 91, 248);
+width: 50px;
+height: 50px;
+color: rgb(246, 249, 252);
+font-size: large;
+font-weight: bolder;
+text-align: center;
+text-decoration: none;
+position: fixed;
+bottom: 50px;
+right: 50px;
+line-height: 45px;
+/*line height near to the height in px to center */
+}
+</style>
+<a href="#" class="btn"> ⬆ </a>
